@@ -1,4 +1,5 @@
 package padroescomportamentais.visitor;
 
-public class MembroClube {
+public interface MembroClube {
+    void aceitar(ClubeVisitor visitante);
 }

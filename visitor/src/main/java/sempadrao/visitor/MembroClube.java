@@ -1,4 +1,5 @@
 package sempadrao.visitor;
 
-public class MembroClube {
+public interface MembroClube {
+    double getSalarioBase();
 }
